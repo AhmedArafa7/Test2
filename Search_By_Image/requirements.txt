@@ -1,0 +1,17 @@
+pandas
+requests
+beautifulsoup4
+selenium
+undetected-chromedriver
+
+# Feature extraction & similarity search
+torch
+torchvision
+faiss-cpu
+Pillow
+numpy
+
+# API server
+fastapi
+uvicorn[standard]
+python-multipart
