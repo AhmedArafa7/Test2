@@ -1,0 +1,1 @@
+import{Ja as e}from"./chunk-EGSW2S3D.js";var i=class n{transform(r){return r==null?"\u2014":new Intl.NumberFormat("en-EG",{style:"currency",currency:"EGP",minimumFractionDigits:0,maximumFractionDigits:0}).format(r)}static \u0275fac=function(t){return new(t||n)};static \u0275pipe=e({name:"currencyEgp",type:n,pure:!0})};export{i as a};

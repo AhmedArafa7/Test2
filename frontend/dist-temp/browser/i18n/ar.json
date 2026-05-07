@@ -1,0 +1,540 @@
+{
+  "NAV": {
+    "BROWSE": "تصفح العقارات",
+    "AI_SEARCH": "البحث الذكي",
+    "ASSISTANT": "المساعد الشخصي",
+    "ADD_PROPERTY": "أضف عقار",
+    "BOOKINGS": "الحجوزات",
+    "MESSAGES": "الرسائل",
+    "ADMIN_PANEL": "لوحة الإدارة",
+    "LOGIN": "تسجيل الدخول",
+    "GET_STARTED": "انشاء حساب",
+    "PROFILE": "الملف الشخصي",
+    "SAVED": "المفضلات",
+    "RECOMMENDATIONS": "التوصيات",
+    "SETTINGS": "الإعدادات",
+    "LOGOUT": "تسجيل الخروج",
+    "SIGNED_IN_AS": "مسجل كـ",
+    "ROLES": {
+      "ADMIN": "مدير",
+      "AGENT": "وكيل",
+      "BUYER": "مشتري",
+      "USER": "مستخدم"
+    }
+  },
+  "COMMON": {
+    "APP_NAME": "baytology",
+    "HOME": "الرئيسية",
+    "SEARCH": "بحث",
+    "FILTER": "تصفية",
+    "SAVE": "حفظ",
+    "CANCEL": "إلغاء",
+    "DELETE": "حذف",
+    "EDIT": "تعديل",
+    "VIEW_ALL": "عرض الكل",
+    "RESULTS": "نتيجة تم العثور عليها",
+    "LOADING": "جاري التحميل...",
+    "ALL": "الكل",
+    "ERROR": "حدث خطأ ما",
+    "DELETE_SUCCESS": "تم الحذف بنجاح",
+    "NONE": "لا يوجد",
+    "PREV": "السابق",
+    "NEXT": "التالي"
+  },
+  "HOME": {
+    "BADGE": "🤖 منصة مدعومة بالذكاء الاصطناعي",
+    "HERO_TITLE": "ابحث عن منزل",
+    "HERO_TITLE_ACCENT": "أحلامك بالذكاء الاصطناعي",
+    "HERO_SUBTITLE": "تستخدم baytology الذكاء الاصطناعي لمساعدتك في البحث عن العقارات واكتشافها وحجزها عن طريق النص أو الصوت أو الصورة - بشكل أذكى وأسرع.",
+    "BROWSE_BTN": "تصفح العقارات",
+    "AI_SEARCH_BTN": "🔍 البحث الذكي",
+    "STATS": {
+      "PROPERTIES": "عقارات",
+      "AGENTS": "وكلاء معتمدين",
+      "CLIENTS": "عملاء سعداء",
+      "AI_MODES": "أنماط بحث ذكية"
+    },
+    "WHY": {
+      "TITLE": "لماذا baytology؟",
+      "SUBTITLE": "مدعوم بأحدث تقنيات الذكاء الاصطناعي",
+      "SMART_SEARCH": "بحث ذكي",
+      "SMART_SEARCH_DESC": "ابحث بالنص أو الصوت أو الصورة. يفهم ذكاؤنا الاصطناعي اللغة الطبيعية والسياق البصري.",
+      "RECOMMENDATIONS": "توصيات ذكية",
+      "RECOMMENDATIONS_DESC": "احصل على توصيات عقارية مخصصة بناءً على تاريخ بحثك وتفضيلاتك الشخصية.",
+      "CHAT": "محادثة فورية",
+      "CHAT_DESC": "تواصل فوراً مع الوكلاء عبر الرسائل الفورية. لا تأخير، لا عناء."
+    },
+    "FEATURED": {
+      "TITLE": "عقارات مميزة",
+      "SUBTITLE": "قائمة مختارة خصيصاً لك"
+    },
+    "CTA": {
+      "TITLE": "جاهز للعثور على منزلك؟",
+      "SUBTITLE": "انضم إلى baytology اليوم واختبر مستقبل العقارات.",
+      "REGISTER": "إنشاء حساب",
+      "AI_SEARCH": "جرب البحث الذكي"
+    }
+  },
+  "AUTH": {
+    "LOGIN": {
+      "TITLE": "مرحباً بعودتك",
+      "SUBTITLE": "قم بتسجيل الدخول إلى حسابك",
+      "EMAIL": "البريد الإلكتروني",
+      "EMAIL_PLACEHOLDER": "you@example.com",
+      "PASSWORD": "كلمة المرور",
+      "PASSWORD_PLACEHOLDER": "كلمة المرور",
+      "FORGOT_PASSWORD": "نسيت كلمة المرور؟",
+      "SIGN_IN_BTN": "تسجيل الدخول",
+      "GOOGLE_BTN": "المتابعة باستخدام جوجل",
+      "FACEBOOK_BTN": "المتابعة باستخدام فيسبوك",
+      "SOCIAL_CONFIG_NOTE": "إذا لم يفتح تسجيل الدخول الاجتماعي، تأكد من إعداد googleClientId و facebookAppId في environment.ts.",
+      "NO_ACCOUNT": "ليس لديك حساب؟",
+      "SIGN_UP_LINK": "إنشاء حساب",
+      "SUCCESS": "مرحباً بعودتك!",
+      "ERROR_INVALID": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+      "ERROR_GOOGLE_CONFIG": "تسجيل الدخول عبر جوجل غير معد في هذا العميل.",
+      "ERROR_GOOGLE_SDK": "لم يتم تحميل مكتبة جوجل بعد. يرجى المحاولة مرة أخرى.",
+      "ERROR_GOOGLE_LOAD": "فشل تحميل تسجيل الدخول عبر جوجل.",
+      "ERROR_FACEBOOK_CONFIG": "تسجيل الدخول عبر فيسبوك غير معد في هذا العميل.",
+      "ERROR_FACEBOOK_SDK": "لم يتم تحميل مكتبة فيسبوك بعد. يرجى المحاولة مرة أخرى.",
+      "ERROR_FACEBOOK_LOAD": "فشل تحميل تسجيل الدخول عبر فيسبوك.",
+      "ERROR_FACEBOOK_CANCEL": "تم إلغاء تسجيل الدخول عبر فيسبوك."
+    },
+    "REGISTER": {
+      "TITLE": "إنشاء حساب",
+      "SUBTITLE": "انضم إلى المنصة العقارية المدعومة بالذكاء الاصطناعي",
+      "DISPLAY_NAME": "الاسم المعروض",
+      "DISPLAY_NAME_PLACEHOLDER": "الاسم بالكامل",
+      "EMAIL": "البريد الإلكتروني",
+      "EMAIL_PLACEHOLDER": "you@example.com",
+      "PASSWORD": "كلمة المرور",
+      "PASSWORD_PLACEHOLDER": "8 أحرف على الأقل، حروف كبيرة وصغيرة وأرقام",
+      "ROLE_LABEL": "أنا أريد",
+      "ROLE_BUYER": "البحث عن عقار",
+      "ROLE_AGENT": "عرض عقاراتي",
+      "CREATE_BTN": "إنشاء الحساب",
+      "ALREADY_HAVE": "لديك حساب بالفعل؟",
+      "SIGN_IN_LINK": "تسجيل الدخول",
+      "SUCCESS": "تم إنشاء الحساب بنجاح. يمكنك تسجيل الدخول الآن.",
+      "ERROR_FAILED": "فشل إنشاء الحساب. يرجى التأكد من البيانات."
+    }
+  },
+  "PROPERTY": {
+    "FEATURED": "مميز",
+    "AREA_UNIT": "م²",
+    "LISTING_TYPES": {
+      "Sale": "بيع",
+      "Rent": "إيجار"
+    },
+    "STATUSES": {
+      "Available": "متاح",
+      "Pending": "قيد الانتظار",
+      "Sold": "تم البيع"
+    },
+    "TYPES": {
+      "Apartment": "شقة",
+      "Villa": "فيلا",
+      "Office": "مكتب",
+      "Land": "أرض"
+    },
+    "AMENITIES": {
+      "Parking": "موقف سيارات",
+      "Pool": "حمامات سباحة",
+      "Gym": "صالة ألعاب رياضية",
+      "Elevator": "مصعد",
+      "Security": "أمن",
+      "Balcony": "شرفة",
+      "Garden": "حديقة",
+      "CentralAC": "تكييف مركزي",
+      "VIEW": "إطلالة"
+    },
+    "FURNISHING": {
+      "Furnished": "مفروش",
+      "Unfurnished": "غير مفروش",
+      "SemiFurnished": "نصف مفروش"
+    }
+  },
+  "PROPERTY_LIST": {
+    "FILTERS_TITLE": "التصفية",
+    "CITY": "المدينة",
+    "DISTRICT": "المنطقة",
+    "TYPE": "نوع العقار",
+    "LISTING": "نوع الإدراج",
+    "MIN_PRICE": "أقل سعر",
+    "MAX_PRICE": "أعلى سعر",
+    "MIN_BEDS": "أقل غرف",
+    "MAX_BEDS": "أقصى غرف",
+    "APPLY_BTN": "تطبيق التصفية",
+    "CLEAR_BTN": "مسح الكل",
+    "TITLE": "العقارات",
+    "LOADING": "جاري تحميل العقارات...",
+    "EMPTY_TITLE": "لم يتم العثور على عقارات",
+    "EMPTY_MSG": "حاول تعديل خيارات التصفية",
+    "ERROR_LOAD": "فشل تحميل العقارات",
+    "ERROR_BUYER_ONLY": "المفضلات متاحة لحسابات المشترين فقط.",
+    "REMOVED_FAV": "تمت إزالة العقار من المفضلة.",
+    "SAVED_SUCCESS": "تم حفظ العقار!",
+    "ALREADY_SAVED": "هذا العقار موجود بالفعل في قائمتك.",
+    "ALREADY_REMOVED": "تمت إزالة هذا العقار بالفعل من قائمتك."
+  },
+  "PROPERTY_DETAIL": {
+    "LOADING": "جاري تحميل العقار...",
+    "DETAILS_TITLE": "التفاصيل",
+    "BEDROOMS": "غرف النوم",
+    "BATHROOMS": "الحمامات",
+    "AREA": "المساحة",
+    "FLOOR": "الطابق",
+    "DESCRIPTION": "الوصف",
+    "AMENITIES_TITLE": "المرافق",
+    "LISTED_BY": "تم الإدراج بواسطة",
+    "VERIFIED": "موثق",
+    "VIEW_PROFILE": "عرض الملف الشخصي",
+    "YOUR_LISTING": "عقارك",
+    "EDIT_BTN": "تعديل العقار",
+    "DELETE_BTN": "حذف العقار",
+    "DELETING": "جاري الحذف...",
+    "REMOVE_SAVED": "إزالة من المفضلات",
+    "SAVE_BTN": "حفظ العقار",
+    "UPDATING": "جاري التحديث...",
+    "CONTACT_AGENT": "تواصل مع الوكيل",
+    "OPENING_CHAT": "جاري فتح المحادثة...",
+    "BOOK_VIEWING": "حجز موعد معاينة",
+    "VIEWING_UNAVAILABLE": "المعاينة غير متاحة حالياً",
+    "SIGN_IN_PROMPT": "قم بتسجيل الدخول للتواصل مع الوكيل أو حجز موعد",
+    "NOT_FOUND": "العقارات غير موجودة",
+    "CONVERSATION_STARTED": "بدأت المحادثة!",
+    "ALREADY_CONVERSATION": "لديك بالفعل محادثة حول هذا العقار",
+    "DELETE_CONFIRM": "هل أنت متأكد أنك تريد حذف هذا العقار؟"
+  },
+  "PROPERTY_FORM": {
+    "CREATE_TITLE": "إضافة عقار",
+    "EDIT_TITLE": "تعديل العقار",
+    "CREATE_SUBTITLE": "قم بإدراج عقار جديد في baytology",
+    "EDIT_SUBTITLE": "تحديث بيانات عقارك",
+    "BASIC_INFO": "بيانات أساسية",
+    "TITLE": "العنوان",
+    "TITLE_PLACEHOLDER": "مثلاً: شقة فاخرة 3 غرف في الزمالك",
+    "DESCRIPTION": "الوصف",
+    "DESCRIPTION_PLACEHOLDER": "صف العقار بالتفصيل...",
+    "TYPE": "نوع العقار",
+    "LISTING": "نوع الإدراج",
+    "PRICE": "السعر (جنيه مصري)",
+    "AREA": "المساحة (م²)",
+    "BEDROOMS": "غرف النوم",
+    "BATHROOMS": "الحمامات",
+    "FLOOR": "الطابق",
+    "TOTAL_FLOORS": "إجمالي الطوابق",
+    "LOCATION": "الموقع",
+    "ADDRESS": "العنوان بالتفصيل",
+    "ADDRESS_PLACEHOLDER": "اسم الشارع والمنطقة",
+    "CITY": "المدينة",
+    "DISTRICT": "الحي",
+    "AMENITIES": "المرافق",
+    "FURNISHING": "الحالة",
+    "VIEW": "نوع الإطلالة",
+    "IMAGES": "الصور",
+    "CURRENT_IMAGES": "روابط الصور الحالية",
+    "ADD_IMAGES": "إضافة روابط صور جديدة (واحد في كل سطر)",
+    "IMAGE_URLS": "روابط الصور (واحد في كل سطر)",
+    "IMAGE_HINT": "الصور الحالية ستبقى مفضلة. التعديل يدعم إضافة روابط صور جديدة فقط حالياً.",
+    "SUBMIT_CREATE": "إضافة العقار",
+    "SUBMIT_UPDATE": "تحديث العقار",
+    "VALIDATION": {
+      "TITLE_REQ": "العنوان مطلوب.",
+      "PRICE_GT_ZERO": "يجب أن يكون السعر أكبر من صفر.",
+      "AREA_GT_ZERO": "يجب أن تكون المساحة أكبر من صفر.",
+      "NEG_UNITS": "لا يمكن أن تكون الغرف أو الحمامات سالبة.",
+      "NEG_FLOOR": "لا يمكن أن يكون الطابق سالباً.",
+      "FLOOR_GT_ZERO": "إجمالي الطوابق يجب أن يكون أكبر من صفر.",
+      "FLOOR_EXCEED": "الطابق لا يمكن أن يتجاوز إجمالي الطوابق."
+    },
+    "SUCCESS_CREATE": "تمت إضافة العقار بنجاح!",
+    "SUCCESS_UPDATE": "تم تحديث العقار بنجاح!",
+    "SUCCESS_UPDATE_IMAGES": "تم تحديث العقار والصور بنجاح!",
+    "ERROR_LOAD": "فشل تحميل بيانات العقار",
+    "ERROR_SAVE": "فشل حفظ بيانات العقار"
+  },
+  "BOOKINGS": {
+    "TITLE": "حجوزاتي",
+    "SUBTITLE": "تتبع مواعيد المعاينة والمدفوعات الخاصة بك",
+    "EMPTY_TITLE": "لا توجد حجوزات بعد",
+    "EMPTY_MSG": "احجز موعد معاينة لعقار للبدء",
+    "STATUSES": {
+      "Pending": "قيد الانتظار",
+      "Confirmed": "مؤكد",
+      "Cancelled": "ملغي",
+      "Completed": "مكتمل",
+      "Paid": "تم الدفع"
+    },
+    "CREATE": {
+      "TITLE": "حجز موعد معاينة",
+      "SUBTITLE": "اختر المواعيد وأكد رغبتك",
+      "SCHEDULE_VISIT": "جدولة زيارة لـ",
+      "PROPERTY": "العقار",
+      "START_DATE": "تاريخ البدء *",
+      "END_DATE": "تاريخ الانتهاء *",
+      "AMOUNT": "المبلغ (جنيه مصري) *",
+      "NOTES": "ملاحظات",
+      "NOTES_PLACEHOLDER": "هل لديك أي طلبات خاصة أو استفسارات؟",
+      "SUBMIT": "تأكيد الحجز",
+      "SUCCESS": "تم إرسال طلب الحجز بنجاح!",
+      "ERROR": "فشل في إنشاء طلب الحجز",
+      "UNAVAILABLE_TITLE": "الحجز غير متاح",
+      "UNAVAILABLE_MSG": "هذا العقار لم يعد متاحاً للحجوزات الجديدة.",
+      "BACK_TO_PROPERTY": "العودة للعقار",
+      "BROWSE_PROPERTIES": "تصفح العقارات",
+      "PAYMENT_DETAILS": "تفاصيل الدفع",
+      "FULL_NAME": "الاسم بالكامل *",
+      "PHONE": "رقم الهاتف *",
+      "EMAIL": "البريد الإلكتروني *",
+      "PROCESSING": "جاري المعالجة...",
+      "COMMISSION_RATE": "نسبة العمولة (%)",
+      "VALIDATION": {
+        "REQUIRED": "يرجى ملء جميع الحقول المطلوبة.",
+        "DATE_RANGE": "تاريخ الانتهاء يجب أن يكون بعد تاريخ البدء.",
+        "COMMISSION_RANGE": "يجب أن تكون نسبة العمولة بين 0 و 99.99%.",
+        "SUCCESS_REDIRECT": "تم إنشاء الحجز! جاري تحويلك للدفع..."
+      }
+    },
+    "DETAIL": {
+      "TITLE": "تفاصيل الحجز",
+      "INFO": "معلومات الحجز",
+      "PROPERTY_DETAILS": "تفاصيل العقار",
+      "STATUS": "الحالة",
+      "DATES": "المواعيد",
+      "CHECK_IN": "تاريخ الدخول",
+      "CHECK_OUT": "تاريخ الخروج",
+      "TOTAL_PRICE": "السعر الإجمالي",
+      "AMOUNT": "المبلغ",
+      "CURRENCY": "العملة",
+      "COMMISSION_RATE": "نسبة العموله",
+      "COMMISSION_AMOUNT": "قيمة العموله",
+      "PAYMENT": "الدفع",
+      "ATTACHED": "مرتبط",
+      "PAY_BTN": "ادفع الآن",
+      "CONFIRM_BTN": "تأكيد",
+      "CANCEL_BTN": "إلغاء الحجز",
+      "CANCEL_CONFIRM": "هل أنت متأكد أنك تريد إلغاء هذا الحجز؟",
+      "SUCCESS_CANCEL": "تم إلغاء الحجز بنجاح",
+      "ERROR_CANCEL": "فشل في إلغاء الحجز",
+      "NOT_FOUND": "الحجز غير موجود",
+      "STATUS_UPDATED": "تم تحديث الحالة",
+      "UPDATE_FAILED": "فشل تحديث الحالة"
+    }
+  },
+  "MESSAGES": {
+    "TITLE": "الرسائل",
+    "SUBTITLE": "محادثاتك مع الوكلاء والمشترين",
+    "EMPTY_TITLE": "لا توجد محادثات",
+    "EMPTY_MSG": "ابدأ محادثة من صفحة العقار",
+    "CHAT_WITH": "محادثة مع",
+    "SEND_PLACEHOLDER": "اكتب رسالة...",
+    "SEND_BTN": "إرسال",
+    "ERROR_LOAD": "فشل تحميل المحادثات",
+    "ERROR_SEND": "فشل إرسال الرسالة",
+    "AGENT": "وكيل",
+    "BUYER": "مشتري",
+    "LOADING": "جاري تحميل المحادثة...",
+    "SHARED_PROPS": "📷 عقارات مشتركة",
+    "INBOX": "صندوق الوارد",
+    "FILTER_ALL": "الكل",
+    "FILTER_UNREAD": "غير مقروء",
+    "FILTER_CLIENTS": "العملاء",
+    "SEARCH_MSG": "ابحث في الرسائل..."
+  },
+  "SIDEBAR": {
+    "OVERVIEW": "نظرة عامة",
+    "INBOX": "الوارد",
+    "LISTINGS": "العقارات",
+    "SCHEDULE": "المواعيد",
+    "ANALYTICS": "التحليلات",
+    "NEW_LISTING": "عقار جديد"
+  },
+  "PROFILE": {
+    "TITLE": "الملف الشخصي",
+    "DISPLAY_NAME": "الاسم المعروض",
+    "AVATAR_URL": "رابط الصورة الشخصية",
+    "BIO": "نبذة شخصية",
+    "PHONE": "رقم الهاتف",
+    "CONTACT": "طريقة التواصل المفضلة",
+    "MEMBER_SINCE": "عضو منذ",
+    "NO_PROFILE": "لا يوجد ملف شخصي بعد.",
+    "EDIT_BTN": "تعديل الملف الشخصي",
+    "UPDATE_BTN": "تحديث البيانات",
+    "EDIT": {
+      "TITLE": "تعديل الملف الشخصي",
+      "SUBTITLE": "تحديث معلوماتك الشخصية",
+      "BIO_PLACEHOLDER": "أخبرنا عن نفسك...",
+      "PHONE_PLACEHOLDER": "+20 xxx xxx xxxx",
+      "CONTACT_METHOD": "طريقة التواصل المفضلة",
+      "SUCCESS": "تم تحديث الملف الشخصي بنجاح!",
+      "ERROR": "فشل تحديث الملف الشخصي",
+      "SAVING": "جاري الحفظ..."
+    },
+    "AGENT": {
+      "TITLE": "ملف الوكيل",
+      "VERIFIED": "وكيل معتمد",
+      "LISTINGS": "العقارات المدرجة",
+      "CONTACT": "تواصل مع الوكيل",
+      "BIO": "عن الوكيل",
+      "DETAILS": "بيانات الوكيل",
+      "AGENCY": "اسم الوكالة",
+      "LICENSE": "رقم الترخيص",
+      "COMMISSION": "نسبة العمولة (%)",
+      "VALIDATION": {
+        "COMMISSION_RANGE": "يجب أن تكون نسبة العمولة بين 0.01% و 99.99%."
+      }
+    }
+  },
+  "RECOMMENDATIONS": {
+    "BADGE": "💡 توصيات ذكية",
+    "TITLE": "توصيات العقارات",
+    "SUBTITLE": "احصل على مقترحات مدعومة بالذكاء الاصطناعي بناءً على تفضيلاتك",
+    "BASED_ON": "بناءً على",
+    "HISTORY": "سجلي السابق",
+    "SPECIFIC_PROPERTY": "عقار معين",
+    "COUNT": "العدد",
+    "PROPERTY_ID": "رقم العقار",
+    "UUID_PLACEHOLDER": "معرف العقار (UUID)",
+    "GET_BTN": "احصل على التوصيات",
+    "SUGGESTED": "العقارات المقترحة",
+    "MATCH": "تطابق",
+    "RANK": "ترتيب",
+    "ERROR_FAILED": "فشل الحصول على التوصيات"
+  },
+  "ADMIN": {
+    "DASHBOARD": {
+      "TITLE": "نظرة عامة على لوحة التحكم",
+      "STATS": {
+        "USERS": "إجمالي المستخدمين",
+        "AGENTS": "الوكلاء",
+        "VERIFIED": "الوكلاء المعتمدين",
+        "PENDING": "في انتظار التوثيق"
+      },
+      "MENU": {
+        "USERS": "إدارة المستخدمين",
+        "USERS_DESC": "إدارة المستخدمين، تعيين الأدوار، تبديل الحالة",
+        "AGENTS": "إدارة الوكلاء",
+        "AGENTS_DESC": "توثيق الوكلاء، مراقبة الأداء",
+        "PAYMENTS": "المدفوعات",
+        "PAYMENTS_DESC": "مراقبة المعاملات وحالات الدفع",
+        "REFUNDS": "المرتجعات",
+        "REFUNDS_DESC": "مراجعة والموافقة على طلبات الاسترداد",
+        "AI_SEARCH": "البحث الذكي",
+        "AI_SEARCH_DESC": "مراقبة طلبات البحث الذكي والأداء",
+        "AUDIT_LOGS": "سجلات النظام",
+        "AUDIT_LOGS_DESC": "مسار تدقيق النظام وأحداث النطاق"
+      }
+    },
+    "USERS": {
+      "TITLE": "إدارة المستخدمين",
+      "TABLE": {
+        "EMAIL": "البريد الإلكتروني",
+        "ROLES": "الأدوار",
+        "VERIFIED": "توثيق البريد",
+        "STATUS": "الحالة",
+        "ACTIONS": "الإجراءات"
+      },
+      "STATUS": {
+        "YES": "نعم",
+        "NO": "لا",
+        "ACTIVE": "نشط",
+        "DISABLED": "معطل"
+      },
+      "ACTIONS": {
+        "DISABLE": "تعطيل",
+        "ENABLE": "تفعيل",
+        "ADD_ROLE": "+ دور"
+      },
+      "SUCCESS_UPDATE": "تم التحديث",
+      "SUCCESS_ROLE": "تم تعيين دور {{role}}"
+    },
+    "AGENTS": {
+      "TITLE": "إدارة الوكلاء",
+      "TABLE": {
+        "NAME": "الاسم",
+        "AGENCY": "الوكالة",
+        "RATING": "التقييم",
+        "COMMISSION": "العمولة",
+        "VERIFIED": "التوثيق",
+        "ACTIONS": "الإجراءات"
+      },
+      "STATUS": {
+        "YES": "موثق",
+        "PENDING": "قيد الانتظار"
+      },
+      "ACTIONS": {
+        "VERIFY": "توثيق"
+      },
+      "SUCCESS_LOAD": "فشل تحميل الوكلاء",
+      "SUCCESS_VERIFY": "تم توثيق الوكيل"
+    }
+  },
+  "SAVED_PROPERTIES": {
+    "TITLE": "المفضلات",
+    "SUBTITLE": "قائمة العقارات التي أعجبتك",
+    "EMPTY_TITLE": "لا توجد عقارات مفضلة",
+    "EMPTY_MSG": "احفظ العقارات التي تعجبك لتراها هنا",
+    "REMOVE_BTN": "إزالة من المفضلات",
+    "ERROR_LOAD": "فشل تحميل العقارات المفضلة",
+    "ERROR_REMOVE": "فشل إزالة العقار",
+    "SUCCESS_REMOVE": "تمت إزالة العقار من المفضلة."
+  },
+  "AI_SEARCH": {
+    "BADGE": "بحث ذكي",
+    "TITLE": "البحث العقاري الذكي",
+    "SUBTITLE": "ابحث بالنص أو الصوت أو الصورة باستخدام الذكاء الاصطناعي",
+    "MODES": {
+      "Text": "نص",
+      "Voice": "صوت",
+      "Image": "صورة"
+    },
+    "TEXT_PLACEHOLDER": "صف ما تبحث عنه... مثلاً: 'شقة 3 غرف في الزمالك تطل على النيل'",
+    "VOICE": {
+      "STOP": "إيقاف",
+      "MIC": "تحدث",
+      "RECORDING": "جاري التسجيل... انقر للإيقاف",
+      "READY": "التسجيل جاهز",
+      "PROMPT": "انقر على الميكروفون لبدء تسجيل صوتك",
+      "CLEAR": "مسح",
+      "ERROR_MIC": "لا يمكن الوصول للميكروفون. يرجى السماح بالصلاحيات."
+    },
+    "IMAGE": {
+      "READY": "الصورة جاهزة، انقر للتغيير",
+      "PROMPT": "انقر للتحميل أو اسحب الصورة هنا",
+      "HINT": "JPG, PNG, WebP - الحد الأقصى 10 ميجابايت",
+      "URL_LABEL": "أو الصق رابط الصورة",
+      "URL_PLACEHOLDER": "https://example.com/property.jpg",
+      "ERROR_LARGE": "الصورة كبيرة جداً. الحد الأقصى 10 ميجابايت."
+    },
+    "SEARCH_BTN": "بحث بالذكاء الاصطناعي",
+    "SEARCHING": "جاري البحث...",
+    "STILL_PROCESSING": "البحث لا يزال قيد المعالجة. تحقق بعد قليل.",
+    "ERROR_FAILED": "فشل البحث",
+    "RESULTS_TITLE": "النتائج",
+    "FOUND": "تم العثور عليها",
+    "NO_RESULTS": "لم يتم العثور على عقارات مطابقة. حاول معايير مختلفة.",
+    "RELEVANCE": "المطابقة",
+    "RANK": "الترتيب"
+  },
+  "CHATBOT": {
+    "TITLE": "المساعد الشخصي",
+    "SUBTITLE": "اسأل عن أي شيء يخص العقارات",
+    "EMPTY": "ابدأ محادثة. اسألني عن العقارات أو الأسعار أو الأحياء السكنية!",
+    "THINKING": "جاري التفكير...",
+    "PLACEHOLDER": "اسأل المساعد الذكي...",
+    "ERROR_SERVICE": "عذراً، لم أتمكن من معالجة طلبك. قد تكون خدمة الذكاء الاصطناعي غير متصلة."
+  },
+  "RELATIVE_TIME": {
+    "JUST_NOW": "الآن",
+    "M_AGO": "دقيقة",
+    "H_AGO": "ساعة",
+    "D_AGO": "يوم"
+  },
+  "FOOTER": {
+    "DESC": "منصة عقارية مدعومة بالذكاء الاصطناعي. ابحث عن منزلك المثالي من خلال البحث الذكي والتوصيات وتجربة حجز سلسة.",
+    "QUICK_LINKS": "روابط سريعة",
+    "CONTACT": "اتصل بنا",
+    "COPYRIGHT": "© 2026 baytology. تم التطوير كمشروع تخرج."
+  }
+}

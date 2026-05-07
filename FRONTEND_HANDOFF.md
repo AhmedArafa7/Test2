@@ -502,6 +502,16 @@ Frontend behavior:
 - unread badge
 - click by `referenceType` and `referenceId`
 
+### 🛠️ Backend Handoff: Pagination Required
+
+The frontend "Notification Center" now includes a **"Load Older Notifications"** button. Currently, this is handled purely in the frontend by fetching all records and slicing them.
+
+**To optimize performance, the backend developer should:**
+1. Update `GetNotificationsQuery` to accept `pageNumber` and `pageSize`.
+2. Implement `.Skip()` and `.Take()` in the query handler.
+3. Update `NotificationsController` to expose these parameters.
+4. (Optional but recommended) Return a standard paginated response metadata (total count, etc.).
+
 ## 14. Real-Time Integration
 
 SignalR hubs:

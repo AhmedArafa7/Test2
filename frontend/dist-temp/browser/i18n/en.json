@@ -1,0 +1,539 @@
+{
+  "NAV": {
+    "BROWSE": "Browse",
+    "AI_SEARCH": "AI Search",
+    "ASSISTANT": "Assistant",
+    "ADD_PROPERTY": "Add Property",
+    "BOOKINGS": "Bookings",
+    "MESSAGES": "Messages",
+    "ADMIN_PANEL": "Admin Panel",
+    "LOGIN": "Login",
+    "GET_STARTED": "Get Started",
+    "PROFILE": "Profile",
+    "SAVED": "Saved",
+    "RECOMMENDATIONS": "Recommendations",
+    "SETTINGS": "Settings",
+    "LOGOUT": "Logout",
+    "SIGNED_IN_AS": "Signed in as",
+    "ROLES": {
+      "ADMIN": "Admin",
+      "AGENT": "Agent",
+      "BUYER": "Buyer",
+      "USER": "User"
+    }
+  },
+  "COMMON": {
+    "APP_NAME": "Baytology",
+    "HOME": "Home",
+    "SEARCH": "Search",
+    "FILTER": "Filter",
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "DELETE": "Delete",
+    "EDIT": "Edit",
+    "VIEW_ALL": "View All",
+    "RESULTS": "results found",
+    "LOADING": "Loading...",
+    "ALL": "All",
+    "ERROR": "An error occurred",
+    "DELETE_SUCCESS": "Deleted successfully",
+    "NONE": "None",
+    "PREV": "Prev",
+    "NEXT": "Next"
+  },
+  "HOME": {
+    "BADGE": "🤖 AI-Powered Platform",
+    "HERO_TITLE": "Find Your Dream",
+    "HERO_TITLE_ACCENT": "Home with AI",
+    "HERO_SUBTITLE": "Baytology uses artificial intelligence to help you search, discover, and book properties with text, voice, or image — smarter and faster.",
+    "BROWSE_BTN": "Browse Properties",
+    "AI_SEARCH_BTN": "🔍 AI Search",
+    "STATS": {
+      "PROPERTIES": "Properties",
+      "AGENTS": "Verified Agents",
+      "CLIENTS": "Happy Clients",
+      "AI_MODES": "AI Search Modes"
+    },
+    "WHY": {
+      "TITLE": "Why Baytology?",
+      "SUBTITLE": "Powered by cutting-edge AI technology",
+      "SMART_SEARCH": "Search by text, voice, or image. Our AI understands natural language and visual context.",
+      "RECOMMENDATIONS": "AI Recommendations",
+      "RECOMMENDATIONS_DESC": "Get personalized property recommendations based on your search history and preferences.",
+      "CHAT": "Real-time Chat",
+      "CHAT_DESC": "Connect instantly with agents via real-time messaging. No delays, no hassle."
+    },
+    "FEATURED": {
+      "TITLE": "Featured Properties",
+      "SUBTITLE": "Hand-picked listings for you"
+    },
+    "CTA": {
+      "TITLE": "Ready to find your home?",
+      "SUBTITLE": "Join Baytology today and experience the future of real estate.",
+      "REGISTER": "Create Account",
+      "AI_SEARCH": "Try AI Search"
+    }
+  },
+  "AUTH": {
+    "LOGIN": {
+      "TITLE": "Welcome back",
+      "SUBTITLE": "Sign in to your account",
+      "EMAIL": "Email",
+      "EMAIL_PLACEHOLDER": "you@example.com",
+      "PASSWORD": "Password",
+      "PASSWORD_PLACEHOLDER": "Password",
+      "FORGOT_PASSWORD": "Forgot password?",
+      "SIGN_IN_BTN": "Sign In",
+      "GOOGLE_BTN": "Continue with Google",
+      "FACEBOOK_BTN": "Continue with Facebook",
+      "SOCIAL_CONFIG_NOTE": "If social login does not open, configure googleClientId and facebookAppId in environment.ts.",
+      "NO_ACCOUNT": "Don't have an account?",
+      "SIGN_UP_LINK": "Sign up",
+      "SUCCESS": "Welcome back!",
+      "ERROR_INVALID": "Invalid email or password",
+      "ERROR_GOOGLE_CONFIG": "Google login is not configured on this client.",
+      "ERROR_GOOGLE_SDK": "Google SDK is not loaded yet. Please try again.",
+      "ERROR_GOOGLE_LOAD": "Failed to load Google login.",
+      "ERROR_FACEBOOK_CONFIG": "Facebook login is not configured on this client.",
+      "ERROR_FACEBOOK_SDK": "Facebook SDK is not loaded yet. Please try again.",
+      "ERROR_FACEBOOK_LOAD": "Failed to load Facebook login.",
+      "ERROR_FACEBOOK_CANCEL": "Facebook login was cancelled."
+    },
+    "REGISTER": {
+      "TITLE": "Create Account",
+      "SUBTITLE": "Join the AI-powered real estate platform",
+      "DISPLAY_NAME": "Display Name",
+      "DISPLAY_NAME_PLACEHOLDER": "John Doe",
+      "EMAIL": "Email",
+      "EMAIL_PLACEHOLDER": "you@example.com",
+      "PASSWORD": "Password",
+      "PASSWORD_PLACEHOLDER": "Min 8 chars, upper, lower, digit, special",
+      "ROLE_LABEL": "I want to",
+      "ROLE_BUYER": "Find a Property",
+      "ROLE_AGENT": "List Properties",
+      "CREATE_BTN": "Create Account",
+      "ALREADY_HAVE": "Already have an account?",
+      "SIGN_IN_LINK": "Sign in",
+      "SUCCESS": "Account created successfully. You can sign in now.",
+      "ERROR_FAILED": "Registration failed. Please check your details."
+    }
+  },
+  "PROPERTY": {
+    "FEATURED": "Featured",
+    "AREA_UNIT": "m²",
+    "LISTING_TYPES": {
+      "Sale": "Sale",
+      "Rent": "Rent"
+    },
+    "STATUSES": {
+      "Available": "Available",
+      "Pending": "Pending",
+      "Sold": "Sold"
+    },
+    "TYPES": {
+      "Apartment": "Apartment",
+      "Villa": "Villa",
+      "Office": "Office",
+      "Land": "Land"
+    },
+    "AMENITIES": {
+      "Parking": "Parking",
+      "Pool": "Pool",
+      "Gym": "Gym",
+      "Elevator": "Elevator",
+      "Security": "Security",
+      "Balcony": "Balcony",
+      "Garden": "Garden",
+      "CentralAC": "Central AC",
+      "VIEW": "View"
+    },
+    "FURNISHING": {
+      "Furnished": "Furnished",
+      "Unfurnished": "Unfurnished",
+      "SemiFurnished": "Semi-Furnished"
+    }
+  },
+  "PROPERTY_LIST": {
+    "FILTERS_TITLE": "Filters",
+    "CITY": "City",
+    "DISTRICT": "District",
+    "TYPE": "Type",
+    "LISTING": "Listing",
+    "MIN_PRICE": "Min Price",
+    "MAX_PRICE": "Max Price",
+    "MIN_BEDS": "Min Beds",
+    "MAX_BEDS": "Max Beds",
+    "APPLY_BTN": "Apply Filters",
+    "CLEAR_BTN": "Clear All",
+    "TITLE": "Properties",
+    "LOADING": "Loading properties...",
+    "EMPTY_TITLE": "No properties found",
+    "EMPTY_MSG": "Try adjusting your filters",
+    "ERROR_LOAD": "Failed to load properties",
+    "ERROR_BUYER_ONLY": "Saved properties are available for buyer accounts.",
+    "REMOVED_FAV": "Property removed from favorites.",
+    "SAVED_SUCCESS": "Property saved!",
+    "ALREADY_SAVED": "This property is already in your saved list.",
+    "ALREADY_REMOVED": "This property was already removed from your saved list."
+  },
+  "PROPERTY_DETAIL": {
+    "LOADING": "Loading property...",
+    "DETAILS_TITLE": "Details",
+    "BEDROOMS": "Bedrooms",
+    "BATHROOMS": "Bathrooms",
+    "AREA": "Area",
+    "FLOOR": "Floor",
+    "DESCRIPTION": "Description",
+    "AMENITIES_TITLE": "Amenities",
+    "LISTED_BY": "Listed by",
+    "VERIFIED": "Verified",
+    "VIEW_PROFILE": "View Profile",
+    "YOUR_LISTING": "Your Listing",
+    "EDIT_BTN": "Edit Property",
+    "DELETE_BTN": "Delete Property",
+    "DELETING": "Deleting...",
+    "REMOVE_SAVED": "Remove from Saved",
+    "SAVE_BTN": "Save Property",
+    "UPDATING": "Updating...",
+    "CONTACT_AGENT": "Contact Agent",
+    "OPENING_CHAT": "Opening chat...",
+    "BOOK_VIEWING": "Book Viewing",
+    "VIEWING_UNAVAILABLE": "Viewing unavailable",
+    "SIGN_IN_PROMPT": "Sign in to contact the agent or book a viewing",
+    "NOT_FOUND": "Property not found",
+    "CONVERSATION_STARTED": "Conversation started!",
+    "ALREADY_CONVERSATION": "You already have a conversation about this property",
+    "DELETE_CONFIRM": "Are you sure you want to delete this property?"
+  },
+  "PROPERTY_FORM": {
+    "CREATE_TITLE": "Create Property",
+    "EDIT_TITLE": "Edit Property",
+    "CREATE_SUBTITLE": "List a new property on Baytology",
+    "EDIT_SUBTITLE": "Update your listing",
+    "BASIC_INFO": "Basic Info",
+    "TITLE": "Title",
+    "TITLE_PLACEHOLDER": "e.g. Luxury 3BR Apartment in Zamalek",
+    "DESCRIPTION": "Description",
+    "DESCRIPTION_PLACEHOLDER": "Describe the property...",
+    "TYPE": "Property Type",
+    "LISTING": "Listing Type",
+    "PRICE": "Price (EGP)",
+    "AREA": "Area (m²)",
+    "BEDROOMS": "Bedrooms",
+    "BATHROOMS": "Bathrooms",
+    "FLOOR": "Floor",
+    "TOTAL_FLOORS": "Total Floors",
+    "LOCATION": "Location",
+    "ADDRESS": "Address",
+    "ADDRESS_PLACEHOLDER": "Street address",
+    "CITY": "City",
+    "DISTRICT": "District",
+    "AMENITIES": "Amenities",
+    "FURNISHING": "Furnishing",
+    "VIEW": "View Type",
+    "IMAGES": "Images",
+    "CURRENT_IMAGES": "Current image URLs",
+    "ADD_IMAGES": "Add new image URLs (one per line)",
+    "IMAGE_URLS": "Image URLs (one per line)",
+    "IMAGE_HINT": "Existing images stay saved. Editing currently supports adding new image URLs only.",
+    "SUBMIT_CREATE": "Create Property",
+    "SUBMIT_UPDATE": "Update Property",
+    "VALIDATION": {
+      "TITLE_REQ": "Title is required.",
+      "PRICE_GT_ZERO": "Price must be greater than zero.",
+      "AREA_GT_ZERO": "Area must be greater than zero.",
+      "NEG_UNITS": "Bedrooms and bathrooms cannot be negative.",
+      "NEG_FLOOR": "Floor cannot be negative.",
+      "FLOOR_GT_ZERO": "Total floors must be greater than zero.",
+      "FLOOR_EXCEED": "Floor cannot exceed total floors."
+    },
+    "SUCCESS_CREATE": "Property created!",
+    "SUCCESS_UPDATE": "Property updated!",
+    "SUCCESS_UPDATE_IMAGES": "Property and images updated!",
+    "ERROR_LOAD": "Failed to load property",
+    "ERROR_SAVE": "Failed to save property"
+  },
+  "BOOKINGS": {
+    "TITLE": "My Bookings",
+    "SUBTITLE": "Track your property viewings and payments",
+    "EMPTY_TITLE": "No bookings yet",
+    "EMPTY_MSG": "Book a property viewing to get started",
+    "STATUSES": {
+      "Pending": "Pending",
+      "Confirmed": "Confirmed",
+      "Cancelled": "Cancelled",
+      "Completed": "Completed",
+      "Paid": "Paid"
+    },
+    "CREATE": {
+      "TITLE": "Book a Viewing",
+      "SUBTITLE": "Select dates and confirm your interest",
+      "SCHEDULE_VISIT": "Schedule a visit to",
+      "PROPERTY": "Property",
+      "START_DATE": "Start Date",
+      "END_DATE": "End Date",
+      "AMOUNT": "Amount (EGP)",
+      "NOTES": "Notes",
+      "NOTES_PLACEHOLDER": "Any special requests or questions?",
+      "SUBMIT": "Confirm Booking",
+      "SUCCESS": "Booking request sent!",
+      "ERROR": "Failed to create booking",
+      "UNAVAILABLE_TITLE": "Booking unavailable",
+      "UNAVAILABLE_MSG": "This property is no longer available for new bookings.",
+      "BACK_TO_PROPERTY": "Back to property",
+      "BROWSE_PROPERTIES": "Browse Properties",
+      "PAYMENT_DETAILS": "Payment Details",
+      "FULL_NAME": "Full Name",
+      "PHONE": "Phone",
+      "EMAIL": "Email",
+      "PROCESSING": "Processing...",
+      "COMMISSION_RATE": "Commission Rate (%)",
+      "VALIDATION": {
+        "REQUIRED": "Please fill all required fields.",
+        "DATE_RANGE": "End date must be after the start date.",
+        "COMMISSION_RANGE": "Commission rate must be between 0 and 99.99%.",
+        "SUCCESS_REDIRECT": "Booking created! Redirecting to payment..."
+      }
+    },
+    "DETAIL": {
+      "TITLE": "Booking Details",
+      "INFO": "Booking Information",
+      "PROPERTY_DETAILS": "Property Details",
+      "STATUS": "Status",
+      "DATES": "Dates",
+      "CHECK_IN": "Check-in",
+      "CHECK_OUT": "Check-out",
+      "TOTAL_PRICE": "Total Price",
+      "AMOUNT": "Amount",
+      "CURRENCY": "Currency",
+      "COMMISSION_RATE": "Commission Rate",
+      "COMMISSION_AMOUNT": "Commission Amount",
+      "PAYMENT": "Payment",
+      "ATTACHED": "Attached",
+      "PAY_BTN": "Pay Now",
+      "CONFIRM_BTN": "Confirm",
+      "CANCEL_BTN": "Cancel Booking",
+      "CANCEL_CONFIRM": "Are you sure you want to cancel this booking?",
+      "SUCCESS_CANCEL": "Booking cancelled successfully",
+      "ERROR_CANCEL": "Failed to cancel booking",
+      "NOT_FOUND": "Booking not found",
+      "STATUS_UPDATED": "Status updated",
+      "UPDATE_FAILED": "Failed to update status"
+    }
+  },
+  "MESSAGES": {
+    "TITLE": "Messages",
+    "SUBTITLE": "Your conversations with agents and buyers",
+    "EMPTY_TITLE": "No conversations",
+    "EMPTY_MSG": "Start a conversation from a property page",
+    "CHAT_WITH": "Chat with",
+    "SEND_PLACEHOLDER": "Type a message...",
+    "SEND_BTN": "Send",
+    "ERROR_LOAD": "Failed to load conversations",
+    "ERROR_SEND": "Failed to send message",
+    "AGENT": "Agent",
+    "BUYER": "Buyer",
+    "LOADING": "Loading conversation...",
+    "SHARED_PROPS": "📷 Shared Properties",
+    "INBOX": "Inbox",
+    "FILTER_ALL": "All",
+    "FILTER_UNREAD": "Unread",
+    "FILTER_CLIENTS": "Clients",
+    "SEARCH_MSG": "Search messages..."
+  },
+  "SIDEBAR": {
+    "OVERVIEW": "Overview",
+    "INBOX": "Inbox",
+    "LISTINGS": "Listings",
+    "SCHEDULE": "Schedule",
+    "ANALYTICS": "Analytics",
+    "NEW_LISTING": "New Listing"
+  },
+  "PROFILE": {
+    "TITLE": "Your Profile",
+    "DISPLAY_NAME": "Display Name",
+    "AVATAR_URL": "Avatar URL",
+    "BIO": "Bio",
+    "PHONE": "Phone",
+    "CONTACT": "Contact Method",
+    "MEMBER_SINCE": "Member since",
+    "NO_PROFILE": "No profile yet.",
+    "EDIT_BTN": "Edit Profile",
+    "UPDATE_BTN": "Update Profile",
+    "EDIT": {
+      "TITLE": "Edit Profile",
+      "SUBTITLE": "Update your personal information",
+      "BIO_PLACEHOLDER": "Tell us about yourself...",
+      "PHONE_PLACEHOLDER": "+20 xxx xxx xxxx",
+      "CONTACT_METHOD": "Preferred Contact Method",
+      "SUCCESS": "Profile updated!",
+      "ERROR": "Failed to update profile",
+      "SAVING": "Saving..."
+    },
+    "AGENT": {
+      "TITLE": "Agent Profile",
+      "VERIFIED": "Verified Agent",
+      "LISTINGS": "Listings",
+      "CONTACT": "Contact Agent",
+      "BIO": "About the Agent",
+      "DETAILS": "Agent Details",
+      "AGENCY": "Agency Name",
+      "LICENSE": "License Number",
+      "COMMISSION": "Commission Rate (%)",
+      "VALIDATION": {
+        "COMMISSION_RANGE": "Commission rate must be between 0.01% and 99.99%."
+      }
+    }
+  },
+  "RECOMMENDATIONS": {
+    "BADGE": "💡 AI Recommendations",
+    "TITLE": "Property Recommendations",
+    "SUBTITLE": "Get AI-powered suggestions based on your preferences",
+    "BASED_ON": "Based on",
+    "HISTORY": "My History",
+    "SPECIFIC_PROPERTY": "Specific Property",
+    "COUNT": "Count",
+    "PROPERTY_ID": "Property ID",
+    "UUID_PLACEHOLDER": "Property UUID",
+    "GET_BTN": "Get Recommendations",
+    "SUGGESTED": "Suggested Properties",
+    "MATCH": "Match",
+    "RANK": "Rank",
+    "ERROR_FAILED": "Failed to get recommendations"
+  },
+  "ADMIN": {
+    "DASHBOARD": {
+      "TITLE": "Dashboard Overview",
+      "STATS": {
+        "USERS": "Total Users",
+        "AGENTS": "Agents",
+        "VERIFIED": "Verified Agents",
+        "PENDING": "Pending Verification"
+      },
+      "MENU": {
+        "USERS": "User Management",
+        "USERS_DESC": "Manage users, assign roles, toggle status",
+        "AGENTS": "Agent Management",
+        "AGENTS_DESC": "Verify agents, monitor performance",
+        "PAYMENTS": "Payments",
+        "PAYMENTS_DESC": "Monitor transactions and payment statuses",
+        "REFUNDS": "Refunds",
+        "REFUNDS_DESC": "Review and approve refund requests",
+        "AI_SEARCH": "AI Search",
+        "AI_SEARCH_DESC": "Monitor AI search requests and performance",
+        "AUDIT_LOGS": "Audit Logs",
+        "AUDIT_LOGS_DESC": "System audit trail and domain events"
+      }
+    },
+    "USERS": {
+      "TITLE": "User Management",
+      "TABLE": {
+        "EMAIL": "Email",
+        "ROLES": "Roles",
+        "VERIFIED": "Email Verified",
+        "STATUS": "Status",
+        "ACTIONS": "Actions"
+      },
+      "STATUS": {
+        "YES": "Yes",
+        "NO": "No",
+        "ACTIVE": "Active",
+        "DISABLED": "Disabled"
+      },
+      "ACTIONS": {
+        "DISABLE": "Disable",
+        "ENABLE": "Enable",
+        "ADD_ROLE": "+ Role"
+      },
+      "SUCCESS_UPDATE": "Updated",
+      "SUCCESS_ROLE": "Role {{role}} assigned"
+    },
+    "AGENTS": {
+      "TITLE": "Agent Management",
+      "TABLE": {
+        "NAME": "Name",
+        "AGENCY": "Agency",
+        "RATING": "Rating",
+        "COMMISSION": "Commission",
+        "VERIFIED": "Verified",
+        "ACTIONS": "Actions"
+      },
+      "STATUS": {
+        "YES": "Yes",
+        "PENDING": "Pending"
+      },
+      "ACTIONS": {
+        "VERIFY": "Verify"
+      },
+      "SUCCESS_LOAD": "Failed to load agents",
+      "SUCCESS_VERIFY": "Agent verified"
+    }
+  },
+  "SAVED_PROPERTIES": {
+    "TITLE": "Saved Properties",
+    "SUBTITLE": "Your favorite listings",
+    "EMPTY_TITLE": "No saved properties",
+    "EMPTY_MSG": "Save properties you like to see them here",
+    "REMOVE_BTN": "Remove from Saved",
+    "ERROR_LOAD": "Failed to load saved properties",
+    "ERROR_REMOVE": "Failed to remove property",
+    "SUCCESS_REMOVE": "Property removed from favorites."
+  },
+  "AI_SEARCH": {
+    "BADGE": "AI-Powered",
+    "TITLE": "Smart Property Search",
+    "SUBTITLE": "Search by text, voice, or image using artificial intelligence",
+    "MODES": {
+      "Text": "Text",
+      "Voice": "Voice",
+      "Image": "Image"
+    },
+    "TEXT_PLACEHOLDER": "Describe what you're looking for... e.g. 'A 3-bedroom apartment in Zamalek with a Nile view'",
+    "VOICE": {
+      "STOP": "Stop",
+      "MIC": "Mic",
+      "RECORDING": "Recording... click to stop",
+      "READY": "Recording ready",
+      "PROMPT": "Click the microphone to start recording your voice",
+      "CLEAR": "Clear",
+      "ERROR_MIC": "Could not access microphone. Please allow microphone permission."
+    },
+    "IMAGE": {
+      "READY": "Image ready, click to change",
+      "PROMPT": "Click to upload or drag and drop an image",
+      "HINT": "JPG, PNG, WebP - Max 10MB",
+      "URL_LABEL": "Or paste an image URL",
+      "URL_PLACEHOLDER": "https://example.com/property.jpg",
+      "ERROR_LARGE": "Image too large. Max 10MB."
+    },
+    "SEARCH_BTN": "Search with AI",
+    "SEARCHING": "Searching...",
+    "STILL_PROCESSING": "Search is still processing. Check back shortly.",
+    "ERROR_FAILED": "Search failed",
+    "RESULTS_TITLE": "Results",
+    "FOUND": "found",
+    "NO_RESULTS": "No matching properties found. Try different criteria.",
+    "RELEVANCE": "Relevance",
+    "RANK": "Rank"
+  },
+  "CHATBOT": {
+    "TITLE": "AI Assistant",
+    "SUBTITLE": "Ask anything about real estate",
+    "EMPTY": "Start a conversation. Ask me about properties, prices, or neighborhoods!",
+    "THINKING": "Thinking...",
+    "PLACEHOLDER": "Ask the AI assistant...",
+    "ERROR_SERVICE": "Sorry, I could not process your request. The AI service may be offline."
+  },
+  "RELATIVE_TIME": {
+    "JUST_NOW": "just now",
+    "M_AGO": "m ago",
+    "H_AGO": "h ago",
+    "D_AGO": "d ago"
+  },
+  "FOOTER": {
+    "DESC": "AI-powered real estate platform. Find your perfect home with smart search, recommendations, and a seamless booking experience.",
+    "QUICK_LINKS": "Quick Links",
+    "CONTACT": "Contact",
+    "COPYRIGHT": "© 2026 Baytology. Built as a Graduation Project."
+  }
+}
